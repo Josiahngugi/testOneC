@@ -7,6 +7,14 @@ public class Memorize {
   System.out.println("enter number");
   int k= input.nextInt();
 
+     this.isPrime(k);
+     if(isPrime(k))
+         System.out.println(" true") ;
+
+     else
+         System.out.println(" false");
+ }
+
   public boolean isPrime(int n)
   {
    // Corner case
