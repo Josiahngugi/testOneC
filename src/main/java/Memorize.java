@@ -2,12 +2,15 @@ import java.util.Scanner;
 
 public class Memorize {
 
+// memorize function
  public void memorize() {
   Scanner input =new Scanner(System.in);
   System.out.println("enter number");
   int k= input.nextInt();
 
+//  Passing isPrime as input function to this function
      this.isPrime(k);
+
      if(isPrime(k))
          System.out.println(" true") ;
 
@@ -15,6 +18,7 @@ public class Memorize {
          System.out.println(" false");
  }
 
+//    memorized isPrime function
   public boolean isPrime(int n)
   {
    // Corner case
