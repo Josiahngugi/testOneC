@@ -28,4 +28,9 @@ public class Memorize {
 
    return true;
   }
+
+    public static void main(String[] args) {
+        Memorize t = new Memorize();
+        t.memorize();
+    }
 }
